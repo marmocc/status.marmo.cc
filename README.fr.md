@@ -6,6 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite)](https://vitejs.dev/)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/UptimeWorker/UptimeWorker)
 
 [🌐 Voir la démo](https://uptimeworker.net) | [📖 Documentation détaillée](https://deepwiki.com/UptimeWorker/UptimeWorker) | [English version](./README.md) | [Guide de personnalisation](./CUSTOMIZATION.fr.md)
 
