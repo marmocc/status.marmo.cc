@@ -4,7 +4,6 @@ import { PageConfig, WorkerConfig } from './types/config'
 export const pageConfig: PageConfig = {
   title: "Status",
   links: [{ link: 'https://github.com/marmocc', label: 'GitHub' }],
-  showSummary: false,
 }
 
 // This controls the background worker that pings your tunnel
