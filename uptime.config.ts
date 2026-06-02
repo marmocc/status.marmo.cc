@@ -51,6 +51,7 @@ export const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://backup.marmo.cc',
       timeout: 10000,
+      expectedStatus: 401, // 401 Unauthorized means Kopia is online and correctly refusing unauthenticated users.
       statusPageLink: 'https://backup.marmo.cc',
       tooltip: 'Backup',
     },
