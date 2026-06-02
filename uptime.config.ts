@@ -21,3 +21,5 @@ export const workerConfig: WorkerConfig = {
     },
   ],
 }
+
+export const maintenances: any[] = []
