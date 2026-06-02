@@ -5,7 +5,9 @@ export const pageConfig: PageConfig = {
   title: "Status",
   links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'GitHub' }],
   group: {
-    'AION': ['aion_tunnel', 'aion_dashboard'],
+    'AION': {
+      monitors: ['aion_tunnel', 'aion_dashboard'],
+      expanded: true
   },
 }
 
