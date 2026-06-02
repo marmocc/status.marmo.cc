@@ -4,8 +4,8 @@ export const pageConfig: PageConfig = {
   title: "Status",
   links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'Source' }],
   group: {
-    'Cloudflare': ['pages_portfolio', 'pages_status' ],
-    'AION': ['aion_tunnel', 'aion_dashboard'],
+    'Cloudflare': [ 'pages_status', 'pages_portfolio' ],
+    'AION': ['aion_tunnel', 'aion_dashboard', 'aion_backup' ],
   },
 }
 
@@ -44,6 +44,15 @@ export const workerConfig: WorkerConfig = {
       timeout: 10000,
       statusPageLink: 'https://dash.marmo.cc',
       tooltip: 'Dashboard',
+    },
+    {
+      id: 'aion_backup',
+      name: 'Backup',
+      method: 'GET',
+      target: 'https://backup.marmo.cc',
+      timeout: 10000,
+      statusPageLink: 'https://backup.marmo.cc',
+      tooltip: 'Backup',
     },
   ],
 }
