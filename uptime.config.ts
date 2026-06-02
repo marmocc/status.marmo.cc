@@ -15,9 +15,16 @@ export const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://tunnel.marmo.cc/ready',
       timeout: 10000,
+    },
+    {
+      id: 'aion_dashboard',
+      name: 'Dashboard (on AION)',
+      method: 'GET',
+      target: 'https://dash.marmo.cc',
+      timeout: 10000,
 
       statusPageLink: 'https://dash.marmo.cc',
-      tooltip: 'AION Dashboard',
+      tooltip: 'Dashboard',
     },
   ],
 }
