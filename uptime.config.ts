@@ -48,4 +48,15 @@ export const workerConfig: WorkerConfig = {
   ],
 }
 
-export const maintenances: any[] = []
+export const maintenances: any[] = [
+  {
+    id: 'aion_backup',
+    title: 'Scheduled Backups',
+    description: 'AION containers are temporarily paused to be backed up.',
+    
+    startString: '20260603T0300',
+    durationString: '5m',
+    rruleString: 'FREQ=DAILY',
+    monitors: ['aion_dashboard']
+  }
+]
