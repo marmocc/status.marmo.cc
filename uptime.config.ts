@@ -3,7 +3,7 @@ import { PageConfig, WorkerConfig } from './types/config'
 // This controls the look of your public status page dashboard
 export const pageConfig: PageConfig = {
   title: "Status",
-  links: [{ link: 'https://github.com/marmocc', label: 'GitHub' }],
+  links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'GitHub' }],
 }
 
 // This controls the background worker that pings your tunnel
