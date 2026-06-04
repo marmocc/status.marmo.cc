@@ -5,7 +5,7 @@ export const pageConfig: PageConfig = {
   links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'Source' }],
   group: {
     'Cloudflare': [ 'pages_status', 'pages_portfolio' ],
-    'AION': ['aion_tunnel', 'aion_dashboard' ],
+    'AION': ['aion_tunnel', 'aion_drive' ],
   },
 }
 
@@ -34,12 +34,12 @@ export const workerConfig: WorkerConfig = {
       target: 'https://tunnel.marmo.cc/ready',
     },
     {
-      id: 'aion_dashboard',
-      name: 'Dashboard',
+      id: 'aion_drive',
+      name: 'Drive',
       method: 'GET',
-      target: 'https://dash.marmo.cc',
-      statusPageLink: 'https://dash.marmo.cc',
-      tooltip: 'Dashboard',
+      target: 'https://drive.marmo.cc',
+      statusPageLink: 'https://drive.marmo.cc',
+      tooltip: 'Drive',
     },
   ],
 }
