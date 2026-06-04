@@ -5,7 +5,7 @@ export const pageConfig: PageConfig = {
   links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'Source' }],
   group: {
     'Cloudflare': [ 'pages_status', 'pages_portfolio' ],
-    'AION': ['aion_tunnel', 'aion_dashboard', 'aion_backup' ],
+    'AION': ['aion_tunnel', 'aion_dashboard' ],
   },
 }
 
@@ -41,27 +41,7 @@ export const workerConfig: WorkerConfig = {
       statusPageLink: 'https://dash.marmo.cc',
       tooltip: 'Dashboard',
     },
-    {
-      id: 'aion_backup',
-      name: 'Backup',
-      method: 'GET',
-      target: 'https://backup.marmo.cc',
-      expectedCodes: [401], // 401 Unauthorized means Kopia is online and correctly refusing unauthenticated users.
-      statusPageLink: 'https://backup.marmo.cc',
-      tooltip: 'Backup',
-    },
   ],
 }
 
-export const maintenances: any[] = [
-  {
-    id: 'aion_backup',
-    title: 'Scheduled Backups',
-    description: 'AION containers are temporarily paused to be backed up.',
-    
-    startString: '20260603T0300',
-    durationString: '5m',
-    rruleString: 'FREQ=DAILY',
-    monitors: ['aion_dashboard']
-  }
-]
+export const maintenances: any[] = []
