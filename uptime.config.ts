@@ -33,6 +33,14 @@ export const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://tunnel.marmo.cc/ready',
     },
+    {
+      id: 'aion_files',
+      name: 'Files',
+      method: 'GET',
+      target: 'https://files.marmo.cc/health',
+      statusPageLink: 'https://files.marmo.cc',
+      tooltip: 'Files',
+    },
   ],
 }
 
