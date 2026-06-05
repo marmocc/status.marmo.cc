@@ -5,7 +5,7 @@ export const pageConfig: PageConfig = {
   links: [{ link: 'https://github.com/marmocc/status.marmo.cc', label: 'Source' }],
   group: {
     'Cloudflare': [ 'pages_status', 'pages_portfolio' ],
-    'AION': ['aion_tunnel' ],
+    'AION': ['aion_tunnel', 'aion_files' ],
   },
 }
 
