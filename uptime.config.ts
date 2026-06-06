@@ -37,7 +37,7 @@ export const workerConfig: WorkerConfig = {
       id: 'aion_dash',
       name: 'Dashboard',
       method: 'GET',
-      target: 'https://dash.marmo.cc',
+      target: 'https://dash.marmo.cc/api/health',
       statusPageLink: 'https://dash.marmo.cc',
       tooltip: 'Dashboard',
     },
