@@ -1,5 +1,13 @@
 [
   {
+    "id": "cloudflare-portfolio",
+    "name": "Cloudflare - Portfolio",
+    "description": "Portfolio hosted on Cloudflare Pages",
+    "url": "https://marmo.cc",
+    "method": "GET",
+    "acceptedStatusCodes": ["200-299"]
+  },
+  {
     "id": "aion-tunnel",
     "name": "AION - Tunnel",
     "description": "Cloudflare Tunnel to AION",
