@@ -1,13 +1,10 @@
 [
   {
-    "id": "uptimeworker-status",
-    "name": "UptimeWorker",
-    "description": "Status page monitoring service",
-    "url": "https://uptimeworker.net",
+    "id": "aion-tunnel",
+    "name": "AION - Tunnel",
+    "description": "Cloudflare Tunnel to AION",
+    "url": "https://tunnel.marmo.cc/ready",
     "method": "GET",
-    "acceptedStatusCodes": ["200-299", "301", "302"],
-    "followRedirect": true,
-    "linkable": true,
-    "acceptCloudflareChallenge": false
+    "acceptedStatusCodes": ["200-299", "301", "302"]
   }
 ]
