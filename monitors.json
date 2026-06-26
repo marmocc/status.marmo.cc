@@ -5,6 +5,14 @@
     "description": "Cloudflare Tunnel to AION",
     "url": "https://tunnel.marmo.cc/ready",
     "method": "GET",
-    "acceptedStatusCodes": ["200-299", "301", "302"]
+    "acceptedStatusCodes": ["200-299"]
+  },
+  {
+    "id": "aion-filestash",
+    "name": "AION - Filestash",
+    "description": "Filestash Service on AION",
+    "url": "https://files.marmo.cc/healthz",
+    "method": "GET",
+    "acceptedStatusCodes": ["200-299"]
   }
 ]
