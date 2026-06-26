@@ -2,7 +2,7 @@
   {
     "id": "cloudflare-portfolio",
     "name": "Cloudflare - Portfolio",
-    "description": "Portfolio hosted on Cloudflare Pages",
+    "description": "Portfolio on Cloudflare Pages",
     "url": "https://marmo.cc",
     "method": "GET",
     "acceptedStatusCodes": ["200-299"]
